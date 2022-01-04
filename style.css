@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'android' ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype'); 
+}
+
+main{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 5px 5px 5px 8px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(144, 238, 180);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+main>h1{
+    font-family:'android', sans-serif;
+    color: rgb(2, 56, 2);
+}
+h2{
+    font-family:'android', sans-serif;
+    color: rgb(2, 56, 2);
+    background-image: linear-gradient(to right, rgb(166, 252, 204),rgb(232, 255, 250),rgb(244, 252, 249)); 
+}
+header{
+    font-size: 1.2em;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgb(112, 240, 161),rgb(50, 150, 103),rgb(19, 75, 44));
+    color: white;
+    margin: 0px 0px 0px 0px;
+    height: 160px;
+    text-align: center;
+    padding: 8px;
+}
+
+nav{
+    background-color: rgb(19, 75, 40);
+    color: white;
+    padding: 1px;
+    
+}
+a{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 0px 8px 0px 5px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(19, 75, 40);
+    color: white;
+    text-align:center;
+    padding: 5px;
+    margin-top: 7px;
+}
+
+.tabela{
+    background-color:rgb(95, 243, 194) ;
+   padding: 0px 1px 5px 1px;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 2px;
+}
+.tabela>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 8px 8px 0px 0px;
+    background-color:  rgb(19, 75, 40);
+    color: white;
+
+}
+.ancora_verde{
+    color: rgb(57, 136, 70);
+}
+
+.midia{
+    text-align: center;
+}
+
+main> p{
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 5px;
+}
