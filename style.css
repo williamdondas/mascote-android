@@ -13,7 +13,8 @@
     padding: 0px;
 }
 main{
-    width: 810px;
+    min-width:300px;
+    max-width: 810px;
     margin: auto;
     background-color: white;
     padding: 5px 5px 5px 8px;
@@ -31,11 +32,13 @@ body{
 article>h1{
     font-family:'android', sans-serif;
     color: rgb(2, 56, 2);
+    margin-top: 10px;
 }
 h2{
     font-family:'android', sans-serif;
     color: rgb(2, 56, 2);
-    background-image: linear-gradient(to right, rgb(166, 252, 204),rgb(232, 255, 250),rgb(244, 252, 249)); 
+    background-image: linear-gradient(to right, rgb(166, 252, 204),rgb(232, 255, 250),rgb(244, 252, 249));
+    margin-top: 10px; 
 }
 header{
     background-image: linear-gradient(to bottom, rgb(112, 240, 161),rgb(50, 150, 103),rgb(19, 75, 44));
@@ -88,7 +91,8 @@ footer{
 }
 
 aside{
-    width: 800px;
+    min-width:280px;
+    max-width: 790px;
     background-color:rgb(95, 243, 194) ;
    padding: 0px 1px 5px 1px;
     border-radius: 8px 8px 8px 8px;
@@ -117,8 +121,15 @@ aside>p{
 
 .midia{
     text-align: center;
+
+}
+div>iframe{
+    width: 100%;
 }
 
+.imagem_responsiva{
+    width: 100%;
+}
 article> p{
     font-size: 1.2em;
     text-align: justify;
