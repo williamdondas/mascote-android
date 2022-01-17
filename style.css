@@ -34,6 +34,10 @@ body{
     margin-right: 0px;
     
 }
+a.externo::after{
+    content:'\1f517';
+}
+
 article>h1{
     font-family:'android', sans-serif;
     color: rgb(2, 56, 2);
@@ -116,6 +120,17 @@ footer{
     margin-top: 7px;
 }
 
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+} 
+
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(112, 240, 161);
+}
+
 aside{
     min-width:280px;
     max-width: 790px;
@@ -133,13 +148,18 @@ aside>h3{
 
 }
 aside>ul{
-    margin-left: 25px;
+    list-style-type: ' \2714\ ';
+    list-style-position: inside;
+    margin-left: 5px;
+    columns:2;
 }
 aside>p{
     margin-left: 5px;
     margin-top: 5px;
     margin-right: 5px;
+    margin-bottom: 5px;
     text-align: justify;
+    line-height: 1.8em;
 }
 .ancora_verde{
     color: rgb(57, 136, 70);
@@ -150,7 +170,7 @@ aside>p{
 
 }
 div>iframe{
-    width: 100%;
+    width: 96%;
 }
 
 .imagem_responsiva{
